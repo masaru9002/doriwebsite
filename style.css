@@ -36,6 +36,21 @@
     height: 100%;
     z-index: 100;
     }
+
+  .signature {
+    float: right;
+    margin-right: 10px;
+    font-size: 0.75rem;
+  }
+
+  .signature a {
+    text-decoration: none;
+  }
+
+  .signature a:visited{
+    color: var(--text);
+    text-decoration: none;
+  }
   
   body::-webkit-scrollbar {
     width: 0.25rem;
